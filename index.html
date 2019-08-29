@@ -11,8 +11,8 @@
     <section class="game">
       <div class="score">
         <div class="player-score">
-          <h2>Player</h2>
-          <p>0</p>
+          <h2 class="mode">Player</h2>
+          <p class="mode">0</p>
         </div>
         <div class="computer-score">
           <h2>Computer</h2>
@@ -35,8 +35,27 @@
           <button class="scissors">scissors</button>
         </div>
       </div>
+      <div class="sunMoon">
+        <h5>Dark Mode</h5>
+        <svg
+          id="darkMode"
+          width="45"
+          height="45"
+          viewBox="0 0 45 45"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="sun"
+            d="M45 22.5C45 34.9264 34.9264 45 22.5 45C10.0736 45 0 34.9264 0 22.5C0 10.0736 10.0736 0 22.5 0C34.9264 0 45 10.0736 45 22.5Z"
+            fill="#FDDF43"
+          />
+        </svg>
+      </div>
     </section>
-    
+
+    <script src="anime.min.js"></script>
+    <script src="darkmode.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
